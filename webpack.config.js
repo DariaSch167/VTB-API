@@ -54,7 +54,7 @@ module.exports = {
         onStart: {
           delete: [
             {
-              source: path.join(__dirname, "dist").replaceAll("\\", "/"),
+              source: path.join(__dirname, "build").replaceAll("\\", "/"),
               options: {
                 force: true,
                 recursive: true,
