@@ -7,7 +7,9 @@
     "serve": "webpack serve --open --mode development",
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +20,7 @@
     "babel-loader": "^9.1.3",
     "css-loader": "^7.1.0",
     "filemanager-webpack-plugin": "^8.0.0",
+    "gh-pages": "^6.1.1",
     "html-webpack-plugin": "^5.6.0",
     "image-minimizer-webpack-plugin": "^4.0.0",
     "imagemin": "^8.0.1",
@@ -38,5 +41,6 @@
     "webpack": "^5.91.0",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.0.4"
-  }
+  },
+  "homepage": "https://DariaSch167.github.io/VTB-API"
 }
