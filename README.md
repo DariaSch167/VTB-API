@@ -10,6 +10,8 @@ https://dariasch167.github.io/VTB-API/
 	2. List of all goals with progress bar and goal info  - filtered by end date and priority
 	3. Modal window to update the goal: add/withdraw savings
 	4. Goals info is stored in the local storage
+
+[Design was inspired by VTB hackathon mockup](https://www.figma.com/file/8RtBJipAijq13h0Q2p8VlF/VTB-API?type=design&node-id=0%3A1&mode=design&t=l0OMI78T8x5q3Bg4-1)
  
 ## Stack
 
